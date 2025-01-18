@@ -4,9 +4,9 @@ import { Link } from "react-router";
 
 const Navbar = () => {
   return (
-    <header className="px-3  mx-lg-2 py-lg-1 px-xl-5">
+    <header >
       <nav
-        className="navbar navbar-expand-lg"
+        className="navbar navbar-expand-lg px-3 py-lg-1 px-xl-5"
         aria-label="Offcanvas navbar large"
       >
         <div className="container-fluid">

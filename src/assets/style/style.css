@@ -5,12 +5,34 @@
   transition: 0.3s all;
 }
 
+header .navbar {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+header .offcanvas {
+  background-color: rgba(64, 64, 64, 0.9) !important;
+}
+@media (max-width: 470px) {
+  header .offcanvas {
+    width: 295px !important;
+  }
+}
 header #esn-main-logo {
   width: 130px;
   height: 75px;
 }
 header .nav-link {
   font-size: 14px;
+}
+@media (max-width: 992px) {
+  header .nav-link {
+    color: #fff;
+  }
 }
 
 footer {
