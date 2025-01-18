@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 const Navbar = () => {
   return (
-    <header className="px-3  mx-lg-2 py-lg-1 px-xl-5">  
+    <header className="px-3  mx-lg-2 py-lg-1 px-xl-5">
       <nav
         className="navbar navbar-expand-lg"
         aria-label="Offcanvas navbar large"
@@ -43,42 +43,44 @@ const Navbar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <Link to="/" className="nav-link"> ABOUT</Link>
+                  <Link to="/" className="nav-link">
+                    ABOUT
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/forStudents" className="nav-link">
                     FOR STUDENTS
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/media" className="nav-link">
                     MEDIA
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/projects" className="nav-link">
                     PROJECTS
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/externalRelations" className="nav-link">
                     EXTERNAL RELATIONS
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    BLOG
-                  </a>
+                  <Link to="/blog" className="nav-link">
+                    BLOGS
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/nationalEvents" className="nav-link">
                     NATIONAL EVENTS
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/contact" className="nav-link">
                     CONTACT
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
