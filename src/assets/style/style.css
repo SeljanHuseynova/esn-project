@@ -6,7 +6,7 @@
 }
 
 header {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 header .navbar {
   background-color: #fff;
@@ -124,20 +124,23 @@ footer .left img {
   height: 15px;
 }
 
-.hero {
+.about-page {
+  background-image: url("../images/bg-image.jpg");
+}
+.about-page .hero {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.hero .carousel {
-  width: 85%;
+.about-page .hero .carousel {
+  width: 90%;
 }
 @media (max-width: 1094px) {
-  .hero .carousel {
-    width: 100% !important;
+  .about-page .hero .carousel {
+    width: 100%;
   }
 }
-.hero .carousel .carousel-content {
+.about-page .hero .carousel .carousel-content {
   margin: 20px 80px;
   border-radius: 10px;
   height: 47vh;
@@ -146,161 +149,172 @@ footer .left img {
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 768px) {
-  .hero .carousel .carousel-content {
+@media (max-width: 520px) {
+  .about-page .hero .carousel .carousel-content {
+    width: 400px !important;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 495px) {
+  .about-page .hero .carousel .carousel-content {
+    width: 350px !important;
+  }
+}
+@media (max-width: 390px) {
+  .about-page .hero .carousel .carousel-content {
+    width: 310px !important;
+  }
+}
+@media (max-width: 800px) {
+  .about-page .hero .carousel .carousel-content {
     height: 75vh;
   }
 }
 @media (max-width: 630px) {
-  .hero .carousel .carousel-content {
+  .about-page .hero .carousel .carousel-content {
     height: 68vh;
   }
 }
-@media (max-width: 768px) {
-  .hero .carousel .carousel-content {
+@media (max-width: 800px) {
+  .about-page .hero .carousel .carousel-content {
     flex-direction: column;
     text-align: center;
   }
 }
-.hero .carousel .carousel-image {
+.about-page .hero .carousel .carousel-image {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  width: 80%;
+  width: 75%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media (max-width: 768px) {
-  .hero .carousel .carousel-image {
+@media (max-width: 800px) {
+  .about-page .hero .carousel .carousel-image {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
   }
 }
 @media (max-width: 530px) {
-  .hero .carousel .carousel-image {
+  .about-page .hero .carousel .carousel-image {
     -o-object-fit: fill;
        object-fit: fill;
   }
 }
 @media (max-width: 1094px) {
-  .hero .carousel .carousel-image {
+  .about-page .hero .carousel .carousel-image {
     width: 75%;
   }
 }
 @media (max-width: 560px) {
-  .hero .carousel .carousel-image {
+  .about-page .hero .carousel .carousel-image {
     width: 100%;
   }
 }
-@media (max-width: 768px) {
-  .hero .carousel .carousel-image {
+@media (max-width: 800px) {
+  .about-page .hero .carousel .carousel-image {
     width: 100%;
   }
 }
-.hero .carousel .carousel-text {
+.about-page .hero .carousel .carousel-text {
   width: 50%;
   height: 100%;
   display: flex;
   padding: 20px;
 }
 @media (max-width: 1094px) {
-  .hero .carousel .carousel-text {
+  .about-page .hero .carousel .carousel-text {
     padding: 10px;
   }
 }
-@media (max-width: 768px) {
-  .hero .carousel .carousel-text {
-    padding: 28px;
-  }
-}
 @media (max-width: 560px) {
-  .hero .carousel .carousel-text {
+  .about-page .hero .carousel .carousel-text {
     padding: 10px;
     padding-top: 35px;
   }
 }
 @media (max-width: 481px) {
-  .hero .carousel .carousel-text {
+  .about-page .hero .carousel .carousel-text {
     padding: 5px;
     padding-top: 25px;
   }
 }
-.hero .carousel .carousel-text * {
+.about-page .hero .carousel .carousel-text * {
   color: white;
 }
-.hero .carousel .carousel-text h5 {
+.about-page .hero .carousel .carousel-text h5 {
   font-size: 24px;
   font-weight: bold;
 }
-.hero .carousel .carousel-text p {
+.about-page .hero .carousel .carousel-text p {
   font-size: 31px;
   font-weight: 800;
   width: 85%;
   line-height: 35px;
 }
 @media (max-width: 1179px) {
-  .hero .carousel .carousel-text p {
+  .about-page .hero .carousel .carousel-text p {
     font-size: 27px;
   }
 }
 @media (max-width: 1141px) {
-  .hero .carousel .carousel-text p {
+  .about-page .hero .carousel .carousel-text p {
     font-size: 24px;
     line-height: 30px;
   }
 }
 @media (max-width: 1113px) {
-  .hero .carousel .carousel-text p {
+  .about-page .hero .carousel .carousel-text p {
     font-size: 22px;
     width: 100%;
   }
 }
 @media (max-width: 1094px) {
-  .hero .carousel .carousel-text p {
+  .about-page .hero .carousel .carousel-text p {
     font-size: 20px;
   }
 }
 @media (max-width: 1051px) {
-  .hero .carousel .carousel-text p {
+  .about-page .hero .carousel .carousel-text p {
     font-size: 18px;
   }
 }
-@media (max-width: 768px) {
-  .hero .carousel .carousel-text p {
+@media (max-width: 800px) {
+  .about-page .hero .carousel .carousel-text p {
     font-size: 27px;
     line-height: 35px;
   }
 }
 @media (max-width: 560px) {
-  .hero .carousel .carousel-text p {
+  .about-page .hero .carousel .carousel-text p {
     font-size: 24px;
     line-height: 35px;
   }
 }
 @media (max-width: 481px) {
-  .hero .carousel .carousel-text p {
+  .about-page .hero .carousel .carousel-text p {
     font-size: 22px;
   }
 }
 @media (max-width: 446px) {
-  .hero .carousel .carousel-text p {
+  .about-page .hero .carousel .carousel-text p {
     font-size: 20px;
   }
 }
 @media (max-width: 410px) {
-  .hero .carousel .carousel-text p {
+  .about-page .hero .carousel .carousel-text p {
     font-size: 18px;
   }
 }
-@media (max-width: 768px) {
-  .hero .carousel .carousel-text {
+@media (max-width: 800px) {
+  .about-page .hero .carousel .carousel-text {
     width: 100%;
   }
 }
-.hero .carousel .carousel-indicators {
+.about-page .hero .carousel .carousel-indicators {
   margin-top: 10px;
 }
-.hero .carousel .carousel-indicators button {
+.about-page .hero .carousel .carousel-indicators button {
   width: 11px;
   height: 11px;
   border-radius: 50%;

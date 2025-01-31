@@ -1,150 +1,155 @@
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .carousel {
-    width: 85%;
-    @media (max-width: 1094px) {
-      width: 100% !important;
-    }
-  
-
-    .carousel-content {
-      margin: 20px 80px;
-      border-radius: 10px;
-      height: 47vh;
-      @media (max-width: 768px) {
-        height: 75vh;
-      }
-      @media (max-width:630px){
-        height: 68vh;
-        
-      }
-      background-color: #f57b20;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      @media (max-width: 768px) {
-        flex-direction: column;
-        text-align: center;
-      }
-    }
-
-    .carousel-image {
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      width: 80%;
-      @media (max-width: 768px) {
-      border-top-right-radius: 10px;
-      border-bottom-left-radius: 0px;
-      }
-      @media (max-width: 530px) {
-       object-fit: fill;
-      }
-      
-    
+.about-page {
+  background-image: url("../images/bg-image.jpg");
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .carousel {
+      width: 90%;
       @media (max-width: 1094px) {
-        width: 75%;
-      }
-      height: 100%;
-      object-fit: cover;
-      @media (max-width: 560px) {
         width: 100%;
-      }
-
-      @media (max-width: 768px) {
-        width: 100%;
-      }
-    }
-
-    .carousel-text {
-      width: 50%;
-      height: 100%;
-      display: flex;
-      padding: 20px;
-      @media (max-width: 1094px) {
-        padding: 10px;
-      }
-      @media (max-width: 768px) {
-        padding: 28px;
-      }
-      @media (max-width: 560px) {
-        padding: 10px;
-        padding-top: 35px;
-      }
-      @media (max-width:481px) {
-        padding: 5px;
-        padding-top: 25px;
-
       }
      
 
-      * {
-        color: white;
-      }
-
-      h5 {
-        font-size: 24px;
-        font-weight: bold;
-      }
-
-      p {
+      .carousel-content {
+        @media (max-width: 520px) {
+          width: 400px !important;
+          margin: 20px auto;
+        }
+        @media (max-width: 495px) {
+          width: 350px !important;
+        }
+        @media (max-width: 390px) {
+          width: 310px !important;
+         
+        }
        
-        font-size: 31px;
-        font-weight: 800;
-        width: 85%;
-        line-height: 35px;
-        @media (max-width: 1179px) {
-          font-size: 27px;
+        margin: 20px 80px;
+        border-radius: 10px;
+        height: 47vh;
+        @media (max-width: 800px) {
+          height: 75vh;
         }
-        @media (max-width: 1141px) {
-          font-size: 24px;
-          line-height: 30px;
+        @media (max-width: 630px) {
+          height: 68vh;
         }
-        @media (max-width: 1113px) {
-          font-size: 22px;
+        background-color: #f57b20;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: 800px) {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+
+      .carousel-image {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 75%;
+        @media (max-width: 800px) {
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 0px;
+        }
+        @media (max-width: 530px) {
+          object-fit: fill;
+        }
+
+        @media (max-width: 1094px) {
+          width: 75%;
+        }
+        height: 100%;
+        object-fit: cover;
+        @media (max-width: 560px) {
           width: 100%;
         }
+
+        @media (max-width: 800px) {
+          width: 100%;
+        }
+      }
+
+      .carousel-text {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        padding: 20px;
         @media (max-width: 1094px) {
-          font-size: 20px;
+          padding: 10px;
         }
-        @media (max-width: 1051px) {
-          font-size: 18px;
-        }
-        @media (max-width: 768px) {
-          font-size: 27px;
-          line-height: 35px;
-        }
+       
         @media (max-width: 560px) {
+          padding: 10px;
+          padding-top: 35px;
+        }
+        @media (max-width: 481px) {
+          padding: 5px;
+          padding-top: 25px;
+        }
+
+        * {
+          color: white;
+        }
+
+        h5 {
+          font-size: 24px;
+          font-weight: bold;
+        }
+
+        p {
+          font-size: 31px;
+          font-weight: 800;
+          width: 85%;
+          line-height: 35px;
+          @media (max-width: 1179px) {
+            font-size: 27px;
+          }
+          @media (max-width: 1141px) {
+            font-size: 24px;
+            line-height: 30px;
+          }
+          @media (max-width: 1113px) {
+            font-size: 22px;
+            width: 100%;
+          }
+          @media (max-width: 1094px) {
+            font-size: 20px;
+          }
+          @media (max-width: 1051px) {
+            font-size: 18px;
+          }
+          @media (max-width: 800px) {
+            font-size: 27px;
+            line-height: 35px;
+          }
+          @media (max-width: 560px) {
             font-size: 24px;
             line-height: 35px;
           }
-        
-          @media (max-width:481px) {
-            font-size: 22px;
-    
-          }
-          @media (max-width:446px) {
-            font-size: 20px;
-    
-          }
-          @media (max-width:410px) {
-            font-size: 18px;
-    
-          }
-      }
 
-      @media (max-width: 768px) {
-        width: 100%;
+          @media (max-width: 481px) {
+            font-size: 22px;
+          }
+          @media (max-width: 446px) {
+            font-size: 20px;
+          }
+          @media (max-width: 410px) {
+            font-size: 18px;
+          }
+        }
+
+        @media (max-width: 800px) {
+          width: 100%;
+        }
       }
-    }
-    .carousel-indicators {
-      margin-top: 10px;
-      button {
-        width: 11px;
-        height: 11px;
-        border-radius: 50%;
+      .carousel-indicators {
+        margin-top: 10px;
+        button {
+          width: 11px;
+          height: 11px;
+          border-radius: 50%;
+        }
       }
     }
   }
