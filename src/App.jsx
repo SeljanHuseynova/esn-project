@@ -9,6 +9,7 @@ import Blog from "./pages/Blog";
 import NationalEvents from "./pages/NationalEvents";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import EsnAzerbaijan from "./pages/EsnAzerbaijan";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
+        <Route path='/esn-azerbaijan' element={<EsnAzerbaijan/>}/>
         <Route path="/forStudents" element={<ForStudents />} />
         <Route path="/media" element={<Media />} />
         <Route path="/externalRelations" element={<ExternalRelations />} />

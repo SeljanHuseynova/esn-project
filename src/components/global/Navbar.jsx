@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo/logo-main.png";
 import { Link } from "react-router";
+import { LuChevronDown } from "react-icons/lu";
 
 const Navbar = () => {
   return (
@@ -45,36 +46,47 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link to="/" className="nav-link">
                     ABOUT
+                    <LuChevronDown id="chevron"/>
                   </Link>
+                  <ul className="dropdown-menu">
+                    <li><Link to="/esn-azerbaijan" className="drop-link">ESN AZERBAIJAN</Link></li>
+                    <li><Link to="/about/team" className="drop-link">Team</Link></li>
+                  </ul>
                 </li>
                 <li className="nav-item">
                   <Link to="/forStudents" className="nav-link">
                     FOR STUDENTS
+                    <LuChevronDown id="chevron"/>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/media" className="nav-link">
                     MEDIA
+                    <LuChevronDown id="chevron"/>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/projects" className="nav-link">
                     PROJECTS
+                    <LuChevronDown id="chevron"/>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/externalRelations" className="nav-link">
                     EXTERNAL RELATIONS
+                    <LuChevronDown id="chevron"/>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/blog" className="nav-link">
                     BLOGS
+                    <LuChevronDown id="chevron"/>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/nationalEvents" className="nav-link">
                     NATIONAL EVENTS
+                    <LuChevronDown id="chevron"/>
                   </Link>
                 </li>
                 <li className="nav-item">
