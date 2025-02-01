@@ -537,4 +537,64 @@ footer .left img {
   .bottom-about .right p {
     font-size: 10px;
   }
+}
+
+.container-custom .title {
+  background-image: url("https://www.esn.az/profiles/satellite/themes/esnbase/img/title_bg.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  padding: 25px 80px;
+}
+@media (max-width: 600px) {
+  .container-custom .title {
+    padding: 25px 50px;
+  }
+}
+.container-custom .title h3 {
+  font-size: 42px;
+  font-weight: 300;
+  color: #666;
+}
+@media (max-width: 600px) {
+  .container-custom .title h3 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 430px) {
+  .container-custom .title h3 {
+    font-size: 30px;
+  }
+}
+.container-custom .content {
+  color: rgba(57, 55, 55, 0.8078431373);
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  width: 50%;
+}
+@media (max-width: 1030px) {
+  .container-custom .content {
+    width: 70%;
+  }
+}
+@media (max-width: 800px) {
+  .container-custom .content {
+    width: 80%;
+  }
+}
+@media (max-width: 590px) {
+  .container-custom .content {
+    width: 90%;
+    font-size: 14px;
+    padding: 30px;
+  }
+}
+@media (max-width: 520px) {
+  .container-custom .content {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

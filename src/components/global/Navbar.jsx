@@ -5,7 +5,7 @@ import { LuChevronDown } from "react-icons/lu";
 
 const Navbar = () => {
   return (
-    <header >
+    <header>
       <nav
         className="navbar navbar-expand-lg px-3 py-lg-1 px-xl-5"
         aria-label="Offcanvas navbar large"
@@ -46,47 +46,75 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link to="/" className="nav-link">
                     ABOUT
-                    <LuChevronDown id="chevron"/>
+                    <LuChevronDown id="chevron" />
                   </Link>
                   <ul className="dropdown-menu">
-                    <li><Link to="/esn-azerbaijan" className="drop-link">ESN AZERBAIJAN</Link></li>
-                    <li><Link to="/about/team" className="drop-link">Team</Link></li>
+                    <li>
+                      <Link to="/esn-azerbaijan" className="drop-link">
+                        ESN AZERBAIJAN
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/board-members" className="drop-link">
+                        BOARD MEMBERS
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/board-members-supporter" className="drop-link">
+                        BOARD MEMBERS SUPPORTER
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/national-assembly" className="drop-link">
+                        NATIONAL ASSEMBLY
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/esn-ada-baku" className="drop-link">
+                        ESN ADA BAKU
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/how-to-become-a-section" className="drop-link">
+                        HOW TO BECOME A SECTION?
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="nav-item">
                   <Link to="/forStudents" className="nav-link">
                     FOR STUDENTS
-                    <LuChevronDown id="chevron"/>
+                    <LuChevronDown id="chevron" />
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/media" className="nav-link">
                     MEDIA
-                    <LuChevronDown id="chevron"/>
+                    <LuChevronDown id="chevron" />
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/projects" className="nav-link">
                     PROJECTS
-                    <LuChevronDown id="chevron"/>
+                    <LuChevronDown id="chevron" />
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/externalRelations" className="nav-link">
                     EXTERNAL RELATIONS
-                    <LuChevronDown id="chevron"/>
+                    <LuChevronDown id="chevron" />
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/blog" className="nav-link">
                     BLOGS
-                    <LuChevronDown id="chevron"/>
+                    <LuChevronDown id="chevron" />
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/nationalEvents" className="nav-link">
                     NATIONAL EVENTS
-                    <LuChevronDown id="chevron"/>
+                    <LuChevronDown id="chevron" />
                   </Link>
                 </li>
                 <li className="nav-item">
