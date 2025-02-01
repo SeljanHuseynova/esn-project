@@ -1,0 +1,249 @@
+.content-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 35px;
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    max-width: 70%;
+    @media (max-width: 900px) {
+      max-width: 95%;
+    }
+  }
+  .bottom {
+    padding: 50px;
+    font-size: 15px;
+    @media (max-width: 1100px) {
+      padding: 10px;
+    }
+    @media (max-width: 700px) {
+      font-size: 13px;
+    }
+    @media (max-width: 500px) {
+      font-size: 12px;
+    }
+
+    p {
+      color: #444040b1;
+    }
+  }
+}
+
+//trust section
+.trust-section {
+  .head-part {
+    margin-bottom: 20px;
+    height: 40vh;
+    background-image: url("https://www.esn.az/sites/default/files/news/galleries/1_2.jpg");
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .overlay {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      .overlay-content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h5 {
+          color: white;
+          font-size: 35px;
+          padding: 20px 40px;
+          position: relative;
+          text-align: center;
+          @media (max-width: 600px) {
+            font-size: 25px;
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            width: 80px;
+            height: 4px;
+            background-color: #4caf50;
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+  }
+  .body-part {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 50px;
+    @media (max-width: 750px) {
+      padding: 15px;
+    }
+    p {
+      @media (max-width: 700px) {
+        font-size: 14px;
+      }
+      @media (max-width: 600px) {
+        font-size: 13px;
+      }
+    }
+    img {
+      max-width: 65%;
+      @media (max-width: 870px) {
+        max-width: 95%;
+      }
+      margin: 15px auto;
+    }
+  }
+}
+
+//isyop
+.isyop {
+  .head-part {
+    margin-bottom: 20px;
+    height: 40vh;
+    background-image: url("https://www.esn.az/sites/default/files/news/galleries/jj-72_1.jpg");
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .overlay {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      .overlay-content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h5 {
+          color: white;
+          font-size: 35px;
+          padding: 20px 40px;
+          position: relative;
+          text-align: center;
+          @media (max-width: 600px) {
+            font-size: 25px;
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            width: 80px;
+            height: 4px;
+            background-color: #4caf50;
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+  }
+  .body-part {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 50px;
+    @media (max-width: 750px) {
+      padding: 15px;
+    }
+    p {
+      @media (max-width: 700px) {
+        font-size: 14px;
+      }
+      @media (max-width: 600px) {
+        font-size: 13px;
+      }
+    }
+    img {
+      max-width: 65%;
+      @media (max-width: 870px) {
+        max-width: 95%;
+      }
+      margin: 15px auto;
+    }
+  }
+}
+//orientation
+.orientation-section {
+  .head-part {
+    margin-bottom: 20px;
+    height: 40vh;
+    background-image: url("https://www.esn.az/sites/default/files/news/galleries/7_1.jpg");
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .overlay {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      .overlay-content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h5 {
+          color: white;
+          font-size: 35px;
+          padding: 20px 40px;
+          position: relative;
+          text-align: center;
+          @media (max-width: 600px) {
+            font-size: 25px;
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            width: 80px;
+            height: 4px;
+            background-color: #4caf50;
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+  }
+  .body-part {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 50px;
+    @media (max-width: 750px) {
+      padding: 15px;
+    }
+    p {
+        color: #666;
+      @media (max-width: 700px) {
+        font-size: 14px;
+      }
+      @media (max-width: 600px) {
+        font-size: 13px;
+      }
+    }
+    img {
+      max-width: 65%;
+      @media (max-width: 870px) {
+        max-width: 95%;
+      }
+      margin: 15px auto;
+    }
+  }
+}

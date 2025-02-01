@@ -549,20 +549,20 @@ footer .left img {
 }
 @media (max-width: 600px) {
   .container-custom .title {
-    padding: 25px 50px;
+    padding: 25px 40px;
   }
 }
 .container-custom .title h3 {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 300;
   color: #666;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .container-custom .title h3 {
-    font-size: 38px;
+    font-size: 36px;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 500px) {
   .container-custom .title h3 {
     font-size: 30px;
   }
@@ -596,5 +596,277 @@ footer .left img {
 @media (max-width: 520px) {
   .container-custom .content {
     width: 100%;
+  }
+}
+
+.content-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 35px;
+}
+.content-slide .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-slide img {
+  max-width: 70%;
+}
+@media (max-width: 900px) {
+  .content-slide img {
+    max-width: 95%;
+  }
+}
+.content-slide .bottom {
+  padding: 50px;
+  font-size: 15px;
+}
+@media (max-width: 1100px) {
+  .content-slide .bottom {
+    padding: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .content-slide .bottom {
+    font-size: 13px;
+  }
+}
+@media (max-width: 500px) {
+  .content-slide .bottom {
+    font-size: 12px;
+  }
+}
+.content-slide .bottom p {
+  color: rgba(68, 64, 64, 0.6941176471);
+}
+
+.trust-section .head-part {
+  margin-bottom: 20px;
+  height: 40vh;
+  background-image: url("https://www.esn.az/sites/default/files/news/galleries/1_2.jpg");
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.trust-section .head-part .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.trust-section .head-part .overlay .overlay-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trust-section .head-part .overlay .overlay-content h5 {
+  color: white;
+  font-size: 35px;
+  padding: 20px 40px;
+  position: relative;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .trust-section .head-part .overlay .overlay-content h5 {
+    font-size: 25px;
+  }
+}
+.trust-section .head-part .overlay .overlay-content h5::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 80px;
+  height: 4px;
+  background-color: #4caf50;
+  transform: translateX(-50%);
+}
+.trust-section .body-part {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 50px;
+}
+@media (max-width: 750px) {
+  .trust-section .body-part {
+    padding: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .trust-section .body-part p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .trust-section .body-part p {
+    font-size: 13px;
+  }
+}
+.trust-section .body-part img {
+  max-width: 65%;
+  margin: 15px auto;
+}
+@media (max-width: 870px) {
+  .trust-section .body-part img {
+    max-width: 95%;
+  }
+}
+
+.isyop .head-part {
+  margin-bottom: 20px;
+  height: 40vh;
+  background-image: url("https://www.esn.az/sites/default/files/news/galleries/jj-72_1.jpg");
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.isyop .head-part .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.isyop .head-part .overlay .overlay-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.isyop .head-part .overlay .overlay-content h5 {
+  color: white;
+  font-size: 35px;
+  padding: 20px 40px;
+  position: relative;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .isyop .head-part .overlay .overlay-content h5 {
+    font-size: 25px;
+  }
+}
+.isyop .head-part .overlay .overlay-content h5::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 80px;
+  height: 4px;
+  background-color: #4caf50;
+  transform: translateX(-50%);
+}
+.isyop .body-part {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 50px;
+}
+@media (max-width: 750px) {
+  .isyop .body-part {
+    padding: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .isyop .body-part p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .isyop .body-part p {
+    font-size: 13px;
+  }
+}
+.isyop .body-part img {
+  max-width: 65%;
+  margin: 15px auto;
+}
+@media (max-width: 870px) {
+  .isyop .body-part img {
+    max-width: 95%;
+  }
+}
+
+.orientation-section .head-part {
+  margin-bottom: 20px;
+  height: 40vh;
+  background-image: url("https://www.esn.az/sites/default/files/news/galleries/7_1.jpg");
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.orientation-section .head-part .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.orientation-section .head-part .overlay .overlay-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.orientation-section .head-part .overlay .overlay-content h5 {
+  color: white;
+  font-size: 35px;
+  padding: 20px 40px;
+  position: relative;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .orientation-section .head-part .overlay .overlay-content h5 {
+    font-size: 25px;
+  }
+}
+.orientation-section .head-part .overlay .overlay-content h5::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 80px;
+  height: 4px;
+  background-color: #4caf50;
+  transform: translateX(-50%);
+}
+.orientation-section .body-part {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 50px;
+}
+@media (max-width: 750px) {
+  .orientation-section .body-part {
+    padding: 15px;
+  }
+}
+.orientation-section .body-part p {
+  color: #666;
+}
+@media (max-width: 700px) {
+  .orientation-section .body-part p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .orientation-section .body-part p {
+    font-size: 13px;
+  }
+}
+.orientation-section .body-part img {
+  max-width: 65%;
+  margin: 15px auto;
+}
+@media (max-width: 870px) {
+  .orientation-section .body-part img {
+    max-width: 95%;
   }
 }/*# sourceMappingURL=style.css.map */
