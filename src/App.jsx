@@ -20,6 +20,15 @@ import Trust from "./pages/slide-pages/Trust";
 import Isyop from "./pages/slide-pages/Isyop";
 import Guide from "./pages/slide-pages/Guide";
 import OrientationDay from "./pages/slide-pages/OrientationDay";
+import ErasmusGenerationPortal from "./pages/forStudents/ErasmusGenerationPortal";
+import EuropeanSolidartyCorps from "./pages/forStudents/EuropeanSolidartyCorps";
+import GetYourMembershipCard from "./pages/forStudents/GetYourMembershipCard";
+import HowToParticipate from "./pages/forStudents/HowToParticipate";
+import JoinEsnAzerbaijan from "./pages/forStudents/JoinEsnAzerbaijan";
+import StudyInAzerbaijan from "./pages/forStudents/StudyInAzerbaijan";
+import SurvivalGuide from "./pages/forStudents/SurvivalGuide";
+import News from "./pages/media/News";
+import MediaKit from "./pages/media/MediaKit";
 
 function App() {
   return (
@@ -56,13 +65,25 @@ function App() {
           path="/orientation-day-international-students-fall-2023-edition"
           element={<OrientationDay />}
         />
-        <Route path="/forStudents" element={<ForStudents />} />
-        <Route path="/media" element={<Media />} />
-        <Route path="/externalRelations" element={<ExternalRelations />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/nationalEvents" element={<NationalEvents />} />
+        <Route
+          path="/erasmus-generation-portal"
+          element={<ErasmusGenerationPortal />}
+        />
+        <Route
+          path="/european-solidarity-corps"
+          element={<EuropeanSolidartyCorps />}
+        />
+        <Route
+          path="/get-your-membership-card"
+          element={<GetYourMembershipCard />}
+        />
+        <Route path="/how-participate-erasmus" element={<HowToParticipate />} />
+        <Route path="/join-esn-azerbaijan" element={<JoinEsnAzerbaijan />} />
+        <Route path="/study-azerbaijan" element={<StudyInAzerbaijan />} />
+        <Route path="/survival-guide" element={<SurvivalGuide />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/media-kit" element={<MediaKit />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
       </Routes>
       <Footer />
     </>

@@ -82,37 +82,96 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <Link to="/forStudents" className="nav-link">
+                  <Link to="/" className="nav-link">
                     FOR STUDENTS
                     <LuChevronDown id="chevron" />
                   </Link>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link
+                        to="/erasmus-generation-portal"
+                        className="drop-link"
+                      >
+                        ERASMUS GENERATION PORTAL
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link
+                        to="/european-solidarity-corps"
+                        className="drop-link"
+                      >
+                        EUROPEAN SOLIDARITY CORPS
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/get-your-membership-card"
+                        className="drop-link"
+                      >
+                        GET YOUR MEMBERSHIP CARD
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/how-participate-erasmus" className="drop-link">
+                        HOW TO PARTICIPATE IN ERASMUS+?
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/join-esn-azerbaijan" className="drop-link">
+                        JOIN ESN AZERBAIJAN!
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/study-azerbaijan" className="drop-link">
+                        STUDY IN AZERBAIJAN
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/survival-guide" className="drop-link">
+                        SURVIVAL GUIDE
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li className="nav-item">
-                  <Link to="/media" className="nav-link">
+                  <Link to="/" className="nav-link">
                     MEDIA
                     <LuChevronDown id="chevron" />
                   </Link>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link to="/news" className="drop-link">
+                        LATEST NEWS
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/media-kit" className="drop-link">
+                        MEDIA KIT
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li className="nav-item">
-                  <Link to="/projects" className="nav-link">
+                  <Link to="/" className="nav-link">
                     PROJECTS
                     <LuChevronDown id="chevron" />
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/externalRelations" className="nav-link">
+                  <Link to="/" className="nav-link">
                     EXTERNAL RELATIONS
                     <LuChevronDown id="chevron" />
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/blog" className="nav-link">
+                  <Link to="/" className="nav-link">
                     BLOGS
                     <LuChevronDown id="chevron" />
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/nationalEvents" className="nav-link">
+                  <Link to="/" className="nav-link">
                     NATIONAL EVENTS
                     <LuChevronDown id="chevron" />
                   </Link>
