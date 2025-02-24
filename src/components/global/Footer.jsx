@@ -1,30 +1,23 @@
 import React from "react";
 import img from '../../assets/images/Fleur-ESN.png';
+import "../../assets/style/_footer.scss"
+import Contact from "../../pages/Contact.jsx"
 
 const Footer = () => {
   return   <footer>
   <div className="top">
-    <div className="part">
-      <h3>HEADING</h3>
-      <span>something</span>
-      <span>something</span>
-      <span>something</span>
-      <span>something</span>
+  <div className="leftSection">
+      <img
+        src="./src/assets/logo/logo-main.png"
+        alt="Logo of Erasmus student network"
+        className="image"
+      />
+      <p className="paragraph">ESN Azerbaijan is a non-profit youth and student organisation working in the field of international education, student & youth mobility, and providing self-development opportunities for young individuals.</p>
     </div>
-    <div className="part">
-      <h3>HEADING</h3>
-      <span>something</span>
-      <span>something</span>
-      <span>something</span>
-      <span>something</span>
+    <div className="right-section">
+      <Contact />
     </div>
-    <div className="part">
-      <h3>HEADING</h3>
-      <span>something</span>
-      <span>something</span>
-      <span>something</span>
-      <span>something</span>
-    </div>
+    
   </div>
   <div className="bottom">
     <div className="right">
