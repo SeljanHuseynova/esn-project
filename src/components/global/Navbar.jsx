@@ -153,13 +153,36 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <Link to="/" className="nav-link">
+                  <Link to="/project-cards" className="nav-link">
                     PROJECTS
                     <LuChevronDown id="chevron" />
                   </Link>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link to="/project1" className="drop-link">
+                      CreARTivity
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/project2" className="drop-link">
+                      ISYOP
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/project3" className="drop-link">
+                      Youth Workers Exchange Program
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/project4" className="drop-link">
+                      Erasmus: A Complete Guide
+                      </Link>
+                    </li>
+                  </ul>
+
                 </li>
                 <li className="nav-item">
-                  <Link to="/" className="nav-link">
+                  <Link to="/external-relations" className="nav-link">
                     EXTERNAL RELATIONS
                     <LuChevronDown id="chevron" />
                   </Link>

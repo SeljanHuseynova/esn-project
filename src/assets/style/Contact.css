@@ -1,0 +1,113 @@
+.contact-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 70px;
+}
+
+.left-column {
+  padding-top: 55px;
+  flex: 1;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  width: max-content;  
+      
+}
+
+.left-column .section {
+  width: 100%; 
+  background-color: #b1b1b1;
+  color: #fff;
+  padding: 10px;   
+  border-radius: 8px;
+  font-size: 0.8rem; 
+}
+
+
+.left-column .section h3 {
+  font-size: 1rem; 
+  margin: 0 0 5px 0;
+}
+
+.left-column .section p,
+.left-column .section a {
+  font-size: 0.8rem;
+}
+
+.section-link {
+  color: orange;
+  text-decoration: none;
+  font-size: 0.9rem; 
+}
+
+.section-link:hover {
+  text-decoration: underline;
+}
+
+.email-link {
+  color: #4da8da;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 5px; 
+}
+
+.icon {
+  font-size: 20px;
+  color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.facebook:hover {
+  color: #1877f2;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.youtube:hover {
+  color: #ff0000;
+}
+
+.instagram:hover {
+  color: #c13584;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.right-column {
+  flex: 1;
+  min-width: 400px;
+}
+.map-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.map {
+  width: 100%;
+  border-radius: 8px;
+}

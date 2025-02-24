@@ -1,0 +1,46 @@
+.all-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .image-container {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image:hover {
+    transform: scale(1.1);
+  }
+  
+  .text-container {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
