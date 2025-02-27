@@ -194,17 +194,17 @@ const Navbar = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/project2" className="drop-link">
+                      <Link to="/partner-institutions" className="drop-link">
                       PARTNER INSTITUTIONS
                       </Link>
                     </li>
                     <li>
-                      <Link to="/project3" className="drop-link">
+                      <Link to="/partner-organizations" className="drop-link">
                       PARTNER ORGANIZATIONS
                       </Link>
                     </li>
                     <li>
-                      <Link to="/project4" className="drop-link">
+                      <Link to="/partnership-booklet" className="drop-link">
                       PARTNERSHIP BOOOKLET
                       </Link>
                     </li>
