@@ -1,3 +1,4 @@
+
 .contact-container {
   max-width: 1100px;
   margin: 40px auto;
@@ -17,8 +18,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px; 
-  width: max-content;  
-      
+  width: auto;  
 }
 
 .left-column .section {
@@ -101,6 +101,7 @@
   flex: 1;
   min-width: 400px;
 }
+
 .map-section {
   display: flex;
   flex-direction: column;
@@ -110,4 +111,106 @@
 .map {
   width: 100%;
   border-radius: 8px;
+}
+
+/* Medium devices (tablets, 768px and below) */
+@media (max-width: 768px) {
+  .contact-container {
+    margin: 30px auto;
+    padding: 15px;
+  }
+  
+  .main-content {
+    gap: 40px;
+  }
+  
+  .left-column {
+    max-width: 180px;
+    padding-top: 40px;
+  }
+  
+  .left-column .section {
+    font-size: 0.75rem;
+    padding: 8px;
+  }
+  
+  .left-column .section h3 {
+    font-size: 0.9rem;
+  }
+  
+  .section-link,
+  .email-link {
+    font-size: 0.85rem;
+  }
+  
+  .icon {
+    font-size: 18px;
+  }
+}
+
+/* Small devices (mobile, 450px and below) */
+@media (max-width: 450px) {
+  .contact-container {
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .main-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .left-column {
+    max-width: 100%;
+    padding-top: 20px;
+    align-items: center;
+  }
+  
+  .right-column {
+    min-width: 100%;
+  }
+  
+  .left-column .section {
+    font-size: 0.7rem;
+    padding: 8px;
+    width: 90%;
+  }
+  
+  .left-column .section h3 {
+    font-size: 0.9rem;
+  }
+  
+  .section-link,
+  .email-link {
+    font-size: 0.8rem;
+  }
+  
+  .icon {
+    font-size: 18px;
+  }
+}
+
+/* Large devices (desktop, 1200px and above) */
+@media (min-width: 1200px) {
+  .contact-container {
+    max-width: 1200px;
+  }
+  
+  .left-column .section {
+    font-size: 0.85rem;
+    padding: 12px;
+  }
+  
+  .left-column .section h3 {
+    font-size: 1.1rem;
+  }
+  
+  .section-link,
+  .email-link {
+    font-size: 1rem;
+  }
+  
+  .icon {
+    font-size: 22px;
+  }
 }

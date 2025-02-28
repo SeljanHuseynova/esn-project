@@ -170,12 +170,12 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link to="/project3" className="drop-link">
-                      Youth Workers Exchange Program
+                      YOUTH WORKERS EXCHANGE PROGRAM
                       </Link>
                     </li>
                     <li>
                       <Link to="/project4" className="drop-link">
-                      Erasmus: A Complete Guide
+                      ERASMUS: A COMPLETE GUIDE
                       </Link>
                     </li>
                   </ul>
@@ -186,6 +186,29 @@ const Navbar = () => {
                     EXTERNAL RELATIONS
                     <LuChevronDown id="chevron" />
                   </Link>
+
+                  <ul className="dropdown-menu">
+                    <li>
+                      <Link to="/corporate-partners" className="drop-link">
+                      CORPORATE PARTNERS
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/partner-institutions" className="drop-link">
+                      PARTNER INSTITUTIONS
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/partner-organizations" className="drop-link">
+                      PARTNER ORGANIZATIONS
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/partnership-booklet" className="drop-link">
+                      PARTNERSHIP BOOOKLET
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
                 <li className="nav-item">
                   <Link to="/" className="nav-link">

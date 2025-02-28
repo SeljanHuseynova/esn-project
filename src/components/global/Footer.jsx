@@ -6,17 +6,17 @@ import Contact from "../../pages/Contact.jsx"
 const Footer = () => {
   return   <footer>
   <div className="top">
-  <div className="leftSection">
-      <img
-        src="./src/assets/logo/logo-main.png"
-        alt="Logo of Erasmus student network"
-        className="image"
-      />
-      <p className="paragraph">ESN Azerbaijan is a non-profit youth and student organisation working in the field of international education, student & youth mobility, and providing self-development opportunities for young individuals.</p>
+    <div className="leftSection">
+        <img
+          src="./src/assets/logo/logo-main.png"
+          alt="Logo of Erasmus student network"
+          className="image"
+        />
+        <p className="paragraph">ESN Azerbaijan is a non-profit youth and student organisation working in the field of international education, student & youth mobility, and providing self-development opportunities for young individuals.</p>
     </div>
-    <div className="right-section">
-      <Contact />
-    </div>
+      <div className="right-section">
+        <Contact />
+      </div>
     
   </div>
   <div className="bottom">
