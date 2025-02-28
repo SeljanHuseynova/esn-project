@@ -1,5 +1,5 @@
 footer {
-  padding: 30px 70px;
+  padding: 30px 30px !important;
   background-color: #555555;
   color: #fff;
   font-weight: 100;
@@ -8,8 +8,11 @@ footer {
   justify-content: center;
   flex-direction: column;
 
-  @media (max-width: 690px) {
+  @media (max-width: 790px) {
     padding: 40px 60px;
+    .top{
+      gap: 40px !important;
+    }
   }
   @media (max-width: 605px) {
     padding: 40px 40px;
@@ -21,7 +24,7 @@ footer {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 60px;
     justify-content: center;
     @media (max-width: 605px) {
       gap: 50px;
@@ -48,7 +51,7 @@ footer {
     }
 
     .leftSection {
-      margin-right: 20px;
+      margin-right: 0;
     }
 
     .image {
