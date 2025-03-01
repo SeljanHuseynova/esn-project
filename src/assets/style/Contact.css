@@ -189,7 +189,7 @@
   }
 }
 
-/* Large devices (desktop, 1200px and above) */
+
 @media (min-width: 1200px) {
   .contact-container {
     max-width: 1200px;
