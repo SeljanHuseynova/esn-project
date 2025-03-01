@@ -113,7 +113,6 @@
   border-radius: 8px;
 }
 
-/* Medium devices (tablets, 768px and below) */
 @media (max-width: 768px) {
   .contact-container {
     margin: 30px auto;
@@ -148,8 +147,8 @@
   }
 }
 
-/* Small devices (mobile, 450px and below) */
-@media (max-width: 450px) {
+
+@media (max-width: 730px) {
   .contact-container {
     margin: 20px auto;
     padding: 10px;
