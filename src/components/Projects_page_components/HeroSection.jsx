@@ -15,4 +15,4 @@ function HeroSection(props) {
     </section>
   );
 }
-export default HeroSection;
+export default HeroSection; 
